@@ -12,5 +12,6 @@ public class GitHub {
 		Date date = new Date();
 		SimpleDateFormat format = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
 		System.out.println(format.format(date));
+		System.out.println("commit master thrid");
 	}
 }
