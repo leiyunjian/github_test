@@ -8,7 +8,7 @@ public class GitHub {
 		System.out.println("init master");
 		System.out.println("commit master  second");
 		System.out.println("commit branchone first");
-		System.out.println("commit branchone second");
+		System.out.println("overwrite commit branchone second");
 		Date date = new Date();
 		SimpleDateFormat format = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
 		System.out.println(format.format(date));
